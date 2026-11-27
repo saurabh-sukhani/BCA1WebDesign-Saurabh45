@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Webpage Practical</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        p{
+            font-size: 18px;
+            font-family: Arial, sans-serif;
+            color:#00695c;
+        }
+    </style>
+</head>
+<body>
+    <!-- name and contact information using inline CSS -->
+    <h1 id="name" style="color: #1b5e20; text-align: center;">HETAV PANCHAL</h1><br>
+    <h4 id="info" style="color: #424242; text-align:center;">Email-hetav2009@gmail.com<br>Phone-9099144521</h4>
+
+    <!-- navbar using nav tag -->
+    <nav class="navbar">
+        <ul class="list">
+            <li><a href="#" id="item">Home</a></li>
+            <li><a href="#" id="item">Blogs</a></li>
+            <li><a href="#" id="item">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- about me paragraph using internal CSS -->
+        <p>Hey! My name is Hetav Panchal. I love cars specially BMW . My dream is to visit Tokyo(Japan) because I want to see the car culture of tokyo.</p>
+
+        <p id="about">when i see any super car ,a smile will appear on my face and my brain starts thinking about the model of that car.</p><br>
+
+    <!--Contact me button using class selector and external CSS-->
+    <button class="contact-btn">Contact Me</button>
+</body>
+</html>
