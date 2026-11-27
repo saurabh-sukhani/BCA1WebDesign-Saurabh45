@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practical Question 2</title>
+</head>
+<body>
+    <h1>HTML Multimedia Elements:</h1>
+    <hr><br>
+    <!-- link for open google.com -->
+    <h3>Click Here To Open Google -  <strong><a href="https://www.google.com/" target="_blank">Google</a></h3></strong>
+    <hr><br>
+
+    <!-- image tag with all attributes -->
+    <h3>Image With Width, Height And ALT Attribute:</h3>
+    <img src="https://preview.redd.it/describe-the-ovals-victory-in-one-word-ict-fans-v0-ke0zv18eozgf1.jpeg?width=640&crop=smart&auto=webp&s=ba7e3fbfabb70ad86b0705c64f0747c879270c13" alt="image" width="400" height="300">
+    <hr><br>
+
+    <!-- audio tag with all controls -->
+    <h3>Audio Player With Controls:</h3>
+    <audio src="song.mp3" controls></audio>
+    <hr><br>
+
+    <!-- video tag with all controls -->
+     <h3>Video Player With All Controls:</h3>
+     <video src="video.mp4" controls width="400" height="300"></video>
+     <hr><br>
+
+    <!-- iframe tag with google map frame -->
+     <h3>Google Maps IFrame:</h3>
+     <iframe src="https://www.google.com/maps/@23.0593056,72.6307039,3087m/data=!3m1!1e3?entry=ttu&g_ep=EgoyMDI2MDgxNi4wIKXMDSoASAFQAw%3D%3D" frameborder="2" width="400" height="300"></iframe>
+     <hr><br>
+
+</body>
+</html>
