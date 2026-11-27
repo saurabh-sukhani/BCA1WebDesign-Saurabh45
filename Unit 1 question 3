@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practical Question 1</title>
+</head>
+<body>
+    <!-- header tag with collage name -->
+    <header><strong>Gujarat Vidyapith:</strong></header>
+    <hr>
+    <br>
+
+    <!-- nav tag with 4 links to navigation -->
+    <nav>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Courses</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+    <hr>
+    <br>
+
+    <!-- section tag for gujarat vidyapith details -->
+    <section>
+       <h1>About Gujarat Vidyapith</h1>
+       <p>-"Gujarat Vidyapith" is Public Deemed University. Offered many courses for UG, Master Degree and Post Graduate. Gujarat vidyapith estamblished in 1920 by <strong>"Mahatma Gandhi"</strong>.</p> 
+    </section>
+    <hr><br>
+
+    <!-- article tag for one course details -->
+    <article>
+        <b><u>BCA -</u></b>
+        <p>Gujarat Vidyapith have many departments and in this departments <i>"Computer Science Department"</i> offers BCA UG programme for 3 years validity. Gujarat Vidyapith also offres master degree in it field like MSC IT and MCA for 2 years validity programme.</p>
+    </article>
+    <hr><br>
+
+    <!-- footer tag with copyright details -->
+    <footer>
+        <em>Gujarat Vidyapith © 2026 - All Rights Reserved</em>
+    </footer>
+
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practical Question 3</title>
+</head>
+<body>
+    <h1>Feedback Form For Users:</h1>
+    <hr><br>
+    
+    <!-- feedback form with all input types -->
+    <h3>Fill This Feedback Form:</h3>
+    <form action="#">
+        <label>Full Name:</label><br>
+        <input type="text" placeholder="Enter Your Name"><br><br>
+
+        <label>Email Address:</label><br>
+        <input type="email" placeholder="Enter Your Email"><br><br>
+
+        <label>Age:</label><br>
+        <input type="number" placeholder="Enter Age"><br><br>
+
+        <label>Date Of Visit:</label><br>
+        <input type="date"><br><br>
+
+        <label>Mobile Phone:</label><br>
+        <input type="tel" placeholder="Enter Your Mobile Number"><br><br>
+
+        <label>Website Name:</label><br>
+        <input type="url" placeholder="Enter Website Name"><br><br>
+
+        <label>Your Rating:</label><br>
+        <input type="range"><br><br>
+
+        <label>Your Favourite Color:</label><br>
+        <input type="color"><br><br>
+
+        <label>Upload Screenshot Here:</label><br>
+        <input type="file"><br><br>
+
+        <!-- submit and reset button -->
+        <input type="submit" value="Register"> <input type="reset" value="Clear This Form">
+    </form>
+</body>
+</html>
